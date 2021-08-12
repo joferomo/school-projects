@@ -110,7 +110,7 @@ int main(void){
 		}
 	}
 
-	// Cálculo do produto de linha A * coluna B
+	// Cálculo do produto dos elementos de uma linha em matA com a soma dos elementos de uma coluna em matB
 	ok = 0;
 	if(numDeLinhasA == numDeColunasB){
 		ok = 1;
@@ -275,10 +275,6 @@ int main(void){
 		}
 	}
 	else{
-		printf("\nNão é possível calcular o produto entre matA e matB pois não possuem:\n");
-		printf("Número de colunas A = Número de linhas B\n");
-		printf("Número de linhas A = Número de colunas B\n");
-		printf("Número de linhas A diferente do número de colunas A\n");
-		printf("Número de linhas B diferente do número de colunas B\n");
+		printf("\nNão é possível calcular o produto entre matA e matB pois número de linhas de matA != número de colunas de matB:\n");
 	}
 }
