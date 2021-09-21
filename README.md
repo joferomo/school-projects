@@ -15,9 +15,7 @@ This project allows the user to define an array size, order the values of the ar
 The values in the array are randomly generated, and the time taken to sort them is displayed.
 
 # Channel Game
-This is a game about dropping balls on channels and trying to get the most points.
-
-It's kind of like pachinko but with predetermined paths.
+This is a game about dropping balls on channels and trying to get the most points. It's kind of like pachinko, but with predetermined paths.
 
 The channels flip whenever the ball goes through, so plan ahead, since you only have 5 balls.
 
