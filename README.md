@@ -1,5 +1,5 @@
 # school-projects
-Some school projects I've done. I'm currently revising them.
+Some school projects I've done.
 
 # Project 1
 This project involves the multiplication of all values in a line in matrix A by the sum of all the values in a column in matrix B.
