@@ -2,13 +2,12 @@
 #include <string.h>
 #include <math.h>
 #define TAM_HEX 8
-#define TAM_BIN (TAM_HEX-2)*4
 
 int main(void){
 	int getDecimal(char numHex);
 	char numHex[TAM_HEX];
 	int hexLength;
-	int vetorDecimal[TAM_HEX], vetorHex[TAM_HEX], vetorBinario[TAM_BIN];
+	int vetorDecimal[TAM_HEX], vetorHex[TAM_HEX], vetorBinario[(TAM_HEX-2)*4];
 	int i, ok, expoente, valorDecimal, quociente;
 
 	do{
