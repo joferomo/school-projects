@@ -37,7 +37,7 @@ int main(void){
 	for(i = 0; i < hexLength; i++){
 		vetorHex[i] = getDecimal(numHex[i]);
 	}
-	for(i = 0, expoente = hexLength - 1 - i; i < hexLength; i++){
+	for(i = 0, expoente = hexLength - 1; i < hexLength; i++){
 		vetorDecimal[i] = vetorHex[i] * pow(16, expoente--);
 	}
 	for(i = 0, valorDecimal = 0; i < hexLength; i++){
